@@ -21,7 +21,7 @@ class api extends REST_Controller {
 
 	function index_post() {
 		$data = json_decode(file_get_contents('php://input'), true);
-		var_dump($data);
+		var_dump($data); asdasd
 		//echo $asd;
 		/*$data = array(
 			'id_item' => $this->input->post('item_id'),
